@@ -1,0 +1,113 @@
+QWidget { 
+    font-family: Inter, 'Segoe UI', Roboto, Arial, sans-serif; 
+    color: #1F2937;
+}
+#Sidebar {
+    background-color: #111827;
+    border-right: 1px solid #1F2937;
+}
+#AppTitle {
+    color: #F9FAFB;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#NavList {
+    background: transparent;
+    color: #D1D5DB;
+    border: none;
+}
+#NavList::item:selected {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-weight: 600;   
+    border-radius: 8px;
+    margin: 2px;
+}
+#SidebarButton {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+#SidebarButton:hover {
+    background-color: #111827;
+    border-color: #4B5563;
+}
+
+#PageTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+}
+
+#SummaryCard {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+#SummaryTitle {
+    color: #6B7280;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+#SummaryValue {
+    color: #111827;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#TableContainer {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 6px;
+}
+QTableWidget {
+    background: #FFFFFF;
+    gridline-color: #374151;
+    font-size: 14px;
+    
+    color: #111827;
+    selection-background-color: #DBEAFE;   /* bleu clair */
+    selection-color: #111827;  
+}
+QHeaderView::section {
+    background-color: #F3F4F6;
+    border: 1px solid #9CA3AF;
+    font-weight: 600;
+}
+#IconButton,#PrimaryButton,#EditButton,
+#InvButton,#DangerButton,#DefaultButton,#PrimaryButton {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+#IconButton:hover,#PrimaryButton:hover,
+#EditButton:hover{
+    background-color: #1D4ED8;
+}
+#DangerButton {
+    background-color: #EF4444;
+    color: #375464;
+    border: 1px solid #EF4444;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QGroupBox {
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left; 
+    padding: 0 3px;
+    color: #005eeb;
+}

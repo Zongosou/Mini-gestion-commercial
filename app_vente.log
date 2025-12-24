@@ -1,0 +1,141 @@
+2025-12-13 08:11:09,253 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:11:10,355 - piece.piece_liste_patched - ERROR - Erreur liste_clt: no such table: vent
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 288, in liste_clt
+    cur.execute(sql)
+sqlite3.OperationalError: no such table: vent
+2025-12-13 08:16:00,624 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:16:00,631 - piece.piece_liste_patched - ERROR - Erreur liste_clt: no such table: vent
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 288, in liste_clt
+    cur.execute(sql)
+sqlite3.OperationalError: no such table: vent
+2025-12-13 08:16:19,074 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:16:19,080 - piece.piece_liste_patched - ERROR - Erreur liste_clt: no such table: vent
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 288, in liste_clt
+    cur.execute(sql)
+sqlite3.OperationalError: no such table: vent
+2025-12-13 08:16:19,083 - piece.piece_liste_patched - ERROR - Erreur get_all_pice: no such table: infov
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 268, in get_all_pice
+    cur.execute("SELECT * FROM infov ORDER BY datee DESC")
+sqlite3.OperationalError: no such table: infov
+2025-12-13 08:18:45,342 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:19:09,817 - piece.piece_liste_patched - ERROR - Une erreur est survenue: no such table: client dans Info
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 823, in Info
+    cur.execute(info, [cv[1] if cv else None])
+sqlite3.OperationalError: no such table: client
+2025-12-13 08:19:15,304 - piece.piece_liste_patched - ERROR - Erreur credivente: name 'Ui_Ui_payereste' is not defined
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 481, in credivente
+    self.vdi = Ui_Ui_payereste()
+               ^^^^^^^^^^^^^^^
+NameError: name 'Ui_Ui_payereste' is not defined
+2025-12-13 08:25:53,636 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:30:41,417 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:31:42,052 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:32:08,038 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:33:07,826 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:33:52,054 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:34:51,963 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:35:24,688 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:36:40,781 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:38:17,140 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:38:49,318 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:57:39,450 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 08:58:44,012 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:21:45,474 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:39:29,810 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:40:14,175 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:44:16,904 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:46:02,897 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:48:30,001 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:54:28,548 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:58:35,563 - piece.piece_liste_patched - WARNING - Impossible de charger la devise/tva, valeur par défaut utilisée
+2025-12-13 09:59:12,187 - piece.piece_liste_patched - ERROR - Une erreur est survenue: no such table: client dans Info
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 820, in Info
+    cur.execute(info, [cv[1] if cv else None])
+sqlite3.OperationalError: no such table: client
+2025-12-13 09:59:19,280 - piece.piece_liste_patched - ERROR - Une erreur est survenue: no such table: client dans Info
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\piece_liste_patched.py", line 820, in Info
+    cur.execute(info, [cv[1] if cv else None])
+sqlite3.OperationalError: no such table: client
+2025-12-13 12:57:00,595 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such table: achat
+2025-12-13 13:35:06,341 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such table: achat
+2025-12-13 13:39:18,924 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such table: achat
+2025-12-13 15:06:18,539 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such table: achat
+2025-12-13 15:49:27,418 - piece.vente - ERROR - Erreur DB dans liste_deroulante: near "?": syntax error
+2025-12-13 15:50:54,362 - piece.vente - ERROR - Erreur DB dans liste_deroulante: near "FROM": syntax error
+2025-12-14 16:51:28,477 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: libelle
+2025-12-15 08:10:08,840 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: libelle
+2025-12-15 08:11:19,803 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: libelle
+2025-12-15 08:19:54,531 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: libelle
+2025-12-15 08:21:39,162 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: libelle
+2025-12-15 11:10:23,114 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: s.id_libelle
+2025-12-15 11:13:53,214 - piece.vente - ERROR - Erreur DB dans liste_deroulante: near "p": syntax error
+2025-12-15 11:17:11,654 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: s.id_libelle
+2025-12-15 11:18:31,981 - piece.vente - ERROR - Erreur DB dans liste_deroulante: no such column: s.quantite
+2025-12-15 11:19:15,690 - piece.vente - ERROR - Erreur combo_article_selected: 'Vente' object has no attribute 'get_primary_depot'
+2025-12-16 17:31:06,676 - piece.vente - ERROR - Erreur: 11 values for 9 columns
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\vente.py", line 658, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\piece\vente.py", line 750, in list_vente
+    self._save_devis_commande(cur, L, data_vente)
+  File "c:\gscom_15\piece\vente.py", line 668, in _save_devis_commande
+    cur.execute(
+sqlite3.OperationalError: 11 values for 9 columns
+2025-12-16 17:32:32,133 - piece.vente - ERROR - Erreur: Incorrect number of bindings supplied. The current statement uses 11, and there are 12 supplied.
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\vente.py", line 658, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\piece\vente.py", line 750, in list_vente
+    self._save_devis_commande(cur, L, data_vente)
+  File "c:\gscom_15\piece\vente.py", line 674, in _save_devis_commande
+    cur.execute(
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 11, and there are 12 supplied.
+2025-12-17 18:16:37,693 - piece.vente - ERROR - Erreur: 'Numeroteur' object has no attribute 'conn'
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\vente.py", line 660, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\piece\vente.py", line 743, in list_vente
+    numero = self.numeroteur.generer("DV")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\fonction\methode.py", line 633, in generer
+    cur = self.conn.cursor()
+          ^^^^^^^^^
+AttributeError: 'Numeroteur' object has no attribute 'conn'
+2025-12-17 18:25:47,645 - piece.vente - ERROR - Erreur: 'Numeroteur' object has no attribute 'conn'
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\vente.py", line 660, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\piece\vente.py", line 743, in list_vente
+    numero = self.numeroteur.generer("DV")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\fonction\methode.py", line 633, in generer
+    cur = self.conn.cursor()
+          ^^^^^^^^^
+AttributeError: 'Numeroteur' object has no attribute 'conn'
+2025-12-17 18:31:45,350 - piece.vente - ERROR - Erreur: expected str, bytes or os.PathLike object, not Connection
+Traceback (most recent call last):
+  File "c:\gscom_15\piece\vente.py", line 660, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\piece\vente.py", line 743, in list_vente
+    numero = self.numeroteur.generer("DV")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\fonction\methode.py", line 633, in generer
+    self.conn = self.cal.connect_to_db(self.db)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\gscom_15\fonction\methode.py", line 472, in connect_to_db
+    return sq.connect(db_file)
+           ^^^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not Connection

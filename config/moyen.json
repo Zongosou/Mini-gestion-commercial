@@ -1,0 +1,27 @@
+[
+    {
+        "libelle":"Moyen de paiement",
+        "compte":"0000"
+    },
+    {
+        "libelle":"Espèces",
+        "compte":"571000"
+    },
+
+    {
+        "libelle":"Chèque",
+        "compte":"514000"
+    },
+    {
+        "libelle":"Virement bancaire",
+        "compte":"512200"
+    },
+    {
+        "libelle":"Mobile money",
+        "compte":"512101"
+    },
+    {
+        "libelle":"Carte bancaire",
+        "compte":"512200"
+    }
+]
